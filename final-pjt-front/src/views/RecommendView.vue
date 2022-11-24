@@ -95,7 +95,7 @@
 
         </b-col>
       </b-row>
-      <b-row v-if="this.AnotherMovie" >
+      <b-row v-if="this.QuestionCount==11 && this.AnotherMovie">
         <b-row>
           <b-col cols="12" id="m-title" class="text-center">
             <b-badge href="#" variant="dark">비슷한 장르, 배우가 출연한 영화 </b-badge>
